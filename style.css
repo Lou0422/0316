@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap"
+body{font-family: 'Noto Serif TC', serif;}
+.container {
+    width: 1000px;
+    height: 3000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1  {
+    color: #2C46BA;
+    font-size: 54px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+nav a:link {
+    color: #328587;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #E6B0D3;
+    text-decoration: underline;
+}
+.畢業生.jpg {
+    height: 250px;
+    border-radius: 36px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(%E7%95%A2%E6%A5%AD%E7%94%9F.jpg);
+}
+article h3 {
+    height: 30px;
+    background-color: #D1CACA;
+    border-radius: 18px;
+    padding-left: 18px;
+}
